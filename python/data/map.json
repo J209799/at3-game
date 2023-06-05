@@ -1,0 +1,47 @@
+{
+	"unique_rooms": {
+		"cellar_entrance01": "CellarEntrance",
+		"main_room01": "MainRoom",
+		"wine_room01": "WineRoom",
+		"wine_room02": "WineRoom",
+		"beer_room01": "BeerRoom",
+		"beer_room02": "BeerRoom",
+		"food_store01": "FoorStore",
+		"food_store02": "FoorStore"
+	},
+	"room_layout": {
+		"cellar_entrance01": {
+			"prerequisites": {},
+			"N": {
+				"main_room01": {
+					"N": {
+						"wine_room01": {
+							"E": {
+								"beer_room01": {
+									"N": {
+										"beer_room02": {
+											"W": "food_room01"
+										}
+									}
+								}
+							},
+							"W": {
+								"wine_room02": {
+									"N": {
+										"food_room01": {
+											"W": {
+												"food_room02": {
+													"prerequisites": {}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

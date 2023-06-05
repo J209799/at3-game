@@ -1,0 +1,27 @@
+{
+	"CellarEntrance": {
+		"Name": "Cellar Entrance",
+		"Description": "The Enterance to the cellar",
+		"Items": {}
+	},
+	"MainRoom": {
+		"Name": "Main Cellar Room",
+		"Description": "The main room of the cellar, it contains various bits and bob's",
+		"Items": {}
+	},
+	"WineRoom": {
+		"Name": "Wine Storage",
+		"Description": "A Room for storing vintage wines",
+		"Items": {}
+	},
+	"BeerRoom": {
+		"Name": "Beer Storage",
+		"Description": "Storage for various craft beers",
+		"Items": {}
+	},
+	"FoodStore": {
+		"Name": "Food Storage",
+		"Description": "A Room that stores various non-perishable foods; dried fruit, canned goods etc, grains etc.",
+		"Items": {}
+	}
+}
